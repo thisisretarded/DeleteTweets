@@ -1,14 +1,14 @@
-var authorization = "Bearer ***"; // replace by authorization value
+var authorization = "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA";
 var ua = navigator.userAgentData.brands.map(brand => `"${brand.brand}";v="${brand.version}"`).join(', ');
-var client_tid = "***"; // replace by X-Client-Transaction-Id value
-var client_uuid = "***"; // replace by X-Client-Uuid value
+var client_tid = "NJGfd29zdJdvGMawDDQjFixZvq8IxhIKaA7GHbdwdpUmoAJ8s0dR8+L0TxzDd8Jl9foi5TYVXYmX5GyhTpo73nS+QiR8Nw";
+var client_uuid = "d4f271b3cde35fdf04105443fddb52f07a2f81ca2a29feff8ad8784c912993b1d2627d4500de1ea2a10421ba7adfc74c4bdcc1f94b92a4edd490203367ab74c2f9ba65f7a62d9209b51ff6402390ddec";
 var csrf_token = getCookie("ct0");
 var random_resource = "uYU5M2i12UhDvDTzN6hZPg";
 var random_resource_old_tweets = "H8OOoI-5ZE4NxgRr8lfyWg"
 var language_code = navigator.language.split("-")[0]
 var tweets_to_delete = []
 var user_id = getCookie("twid").substring(4);
-var username = "YourUsernameHere" // replace with your username
+var username = "shamefulbella41" // replace with your username
 var stop_signal = undefined
 var twitter_archive_content = undefined
 var twitter_archive_loading_confirmed = false
